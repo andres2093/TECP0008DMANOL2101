@@ -2,6 +2,7 @@ package com.bedu.s2
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
         btnAccept.setOnClickListener {
             txvMsg.text = getString(R.string.btn_clicked)
+            btnAccept.isEnabled = false
+            txvMsg.visibility = View.INVISIBLE
         }
     }
 }

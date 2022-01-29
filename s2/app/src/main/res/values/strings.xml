@@ -2,6 +2,12 @@
     <string name="app_name">s2</string>
     <string name="hello_text">Hello, this is session 2!</string>
 
+    <!--Register-->
+    <string name="register_name">Name</string>
+    <string name="register_lastname">Lastname</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_email">Email</string>
+
     <!--Buttons-->
     <string name="btn_accept">Accept</string>
     <string name="btn_clicked">Clicked!</string>

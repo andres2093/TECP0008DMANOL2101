@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S2">
         <activity
-            android:name=".SecondActivity"
+            android:name=".ThirdActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity"/>
+        <activity android:name=".SecondActivity"/>
     </application>
 
 </manifest>

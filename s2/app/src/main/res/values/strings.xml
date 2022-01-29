@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">s2</string>
+    <string name="hello_text">Hello, this is session 2!</string>
+
+    <!--Buttons-->
+    <string name="btn_accept">Accept</string>
+    <string name="btn_clicked">Clicked!</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txvMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:text="@string/hello_text"
+        android:textSize="22sp"
+        android:textStyle="italic|bold" />
+
+    <Button
+        android:id="@+id/btnAccept"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/btn_accept" />
+
+</LinearLayout>

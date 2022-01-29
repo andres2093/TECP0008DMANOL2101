@@ -5,4 +5,8 @@
     <!--Buttons-->
     <string name="btn_accept">Aceptar</string>
     <string name="btn_clicked">Haz dado clic en el boton</string>
+
+    <!--MSG-->
+    <string name="msg_add_text">Agrega un texto</string>
+    <string name="msg_add_phone">Agrega un numero de telefono</string>
 </resources>

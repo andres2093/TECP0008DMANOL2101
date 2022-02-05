@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">s3</string>
+
+    <!--Register-->
+    <string name="register_name">Name</string>
+    <string name="register_lastname">Lastname</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_email">Email</string>
+
+    <!--Buttons-->
+    <string name="btn_accept">Accept</string>
+    <string name="btn_clicked">Clicked!</string>
+
+    <!--MSG-->
+    <string name="msg_add_text">Add text</string>
+    <string name="msg_add_phone">Add phone</string>
 </resources>

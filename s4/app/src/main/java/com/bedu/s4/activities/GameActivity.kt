@@ -28,9 +28,10 @@ class GameActivity : AppCompatActivity() {
         listView.adapter = adapter
 
         listView.onItemClickListener = AdapterView.OnItemClickListener{ parent, view, position, id ->
+            val gameId = gameList[position].id
             val gameName = gameList[position].title
             val category = gameList[position].category
-            Toast.makeText(this, "$gameName ganó en la categoría $category", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "$gameId: $gameName ganó en la categoría $category", Toast.LENGTH_SHORT).show()
         }
         listView.onItemLongClickListener = AdapterView.OnItemLongClickListener{ parent, view, position, id ->
             Toast.makeText(this, "Seleccionaste el juego ${gameList[position].title}", Toast.LENGTH_SHORT).show()
@@ -42,11 +43,12 @@ class GameActivity : AppCompatActivity() {
     private fun getGames(): ArrayList<GameModel> {
 
         return arrayListOf(
-            GameModel("Call of duty", "Audio design", "Mature", 3.5f, R.drawable.call_of_duty),
-            GameModel("Control", "Art direction", "Everyone", 4.5f, R.drawable.control),
-            GameModel("Destiny 2", "Community support", "Everyone", 3.7f, R.drawable.destiny2),
-            GameModel("Devil may cry 5", "Action game", "Teen", 4.2f, R.drawable.devil_may_cry_5),
+            GameModel(15, "Call of duty", "Audio design", "Mature", 3.5f, R.drawable.call_of_duty),
+            GameModel(18, "Control", "Art direction", "Everyone", 4.5f, R.drawable.control),
+            GameModel(21, "Destiny 2", "Community support", "Everyone", 3.7f, R.drawable.destiny2),
+            GameModel(23,"Devil may cry 5", "Action game", "Teen", 4.2f, R.drawable.devil_may_cry_5),
             GameModel(
+                14,
                 "Sekiro: shadows dies twice",
                 "Game of the year",
                 "Only Adults",
@@ -54,6 +56,7 @@ class GameActivity : AppCompatActivity() {
                 R.drawable.sekiro
             ),
             GameModel(
+                52,
                 "Super smash bros ultimate",
                 "Fighting game",
                 "Everyone",

@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../.gradle/caches/transforms-3/23b76ffe80af4d27184e38abe59be150/transformed/appcompat-1.4.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.34479166666666666" />
         <entry key="../../../../Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_add_user.xml" value="0.32760416666666664" />
         <entry key="app/src/main/res/layout/activity_custom_adapter.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_game.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.32222222222222224" />
+        <entry key="app/src/main/res/layout/activity_spinner.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_users.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/item_game.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.34479166666666666" />

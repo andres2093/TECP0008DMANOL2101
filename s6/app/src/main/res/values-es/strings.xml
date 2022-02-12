@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">s6</string>
+    <string name="title_activity_e2">E2Activity</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_e3">E3Activity</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Panel</string>
+    <string name="title_notifications">Notificaciones</string>
+</resources>

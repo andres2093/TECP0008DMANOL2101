@@ -15,4 +15,5 @@
     <string name="title_home">Principal</string>
     <string name="title_dashboard">Panel</string>
     <string name="title_notifications">Notificaciones</string>
+    <string name="title_map">Mapa</string>
 </resources>

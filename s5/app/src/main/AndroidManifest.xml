@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S5">
         <activity
+            android:name=".e2.activities.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".e2.activities.E2Activity"
+            android:exported="false" />
+        <activity
             android:name=".e1.activities.R1Activity"
             android:exported="false" />
         <activity

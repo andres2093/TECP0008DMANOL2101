@@ -26,6 +26,7 @@ class E3Activity : AppCompatActivity() {
             val transaction = manager.beginTransaction()
             transaction.add(R.id.container, fragment, "fragBedu")
             transaction.commit()
+//            binding.imageView.setImageResource(R.drawable.bedu)
         }
 
         binding.removeButton.setOnClickListener {

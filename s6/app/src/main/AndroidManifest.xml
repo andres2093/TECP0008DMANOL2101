@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S6">
         <activity
+            android:name=".e3.E3Activity"
+            android:exported="false"
+            android:label="@string/title_activity_e3" />
+        <activity
             android:name=".e2.E2Activity"
             android:exported="false"
             android:label="@string/title_activity_e2"

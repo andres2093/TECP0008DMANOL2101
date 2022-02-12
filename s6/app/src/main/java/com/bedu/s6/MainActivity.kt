@@ -7,6 +7,7 @@ import android.widget.Toast
 import com.bedu.s6.databinding.ActivityMainBinding
 import com.bedu.s6.e1.E1Activity
 import com.bedu.s6.e2.E2Activity
+import com.bedu.s6.e3.E3Activity
 import com.bedu.s6.r1.activities.R1Activity
 
 class MainActivity : AppCompatActivity() {
@@ -31,9 +32,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, E2Activity::class.java)
             startActivity(intent)
         }
-//        binding.btnE3.setOnClickListener {
-//            val intent = Intent(this, E3Activity::class.java)
-//            startActivity(intent)
-//        }
+        binding.btnE3.setOnClickListener {
+            val intent = Intent(this, E3Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

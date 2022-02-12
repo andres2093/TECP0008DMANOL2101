@@ -7,6 +7,7 @@
         <entry key="app/src/main/res/layout-large/activity_r1.xml" value="0.1234375" />
         <entry key="app/src/main/res/layout/activity_e1.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_e2.xml" value="0.338100102145046" />
+        <entry key="app/src/main/res/layout/activity_e3.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.338100102145046" />
         <entry key="app/src/main/res/layout/activity_r1.xml" value="0.16458333333333333" />
         <entry key="app/src/main/res/layout/app_bar_e2.xml" value="0.34479166666666666" />
@@ -16,6 +17,7 @@
         <entry key="app/src/main/res/layout/item_contact.xml" value="0.338100102145046" />
         <entry key="app/src/main/res/layout/nav_header_e2.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.338100102145046" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.34479166666666666" />
         <entry key="app/src/main/res/menu/e2.xml" value="0.34479166666666666" />
       </map>
     </option>

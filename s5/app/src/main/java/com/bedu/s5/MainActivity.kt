@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.bedu.s5.databinding.ActivityMainBinding
 import com.bedu.s5.e1.activities.E1Activity
 import com.bedu.s5.e2.activities.E2Activity
+import com.bedu.s5.e3.activities.E3Activity
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         }
         binding.btnE2.setOnClickListener {
             val intent = Intent(this, E2Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnE3.setOnClickListener {
+            val intent = Intent(this, E3Activity::class.java)
             startActivity(intent)
         }
     }

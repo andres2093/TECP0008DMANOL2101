@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.S5">
         <activity
+            android:name=".e3.activities.E3Activity"
+            android:exported="false" />
+        <activity
             android:name=".e2.activities.DetailActivity"
             android:exported="false" />
         <activity

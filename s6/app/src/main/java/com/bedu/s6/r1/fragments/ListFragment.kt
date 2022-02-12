@@ -5,11 +5,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bedu.s6.R
 import com.bedu.s6.databinding.FragmentListBinding
 import com.bedu.s6.r1.adapters.RecyclerAdapter
 import com.bedu.s6.r1.models.Product
+import com.bedu.s6.r1.utils.GridDecoration
 
 class ListFragment : Fragment() {
 
@@ -49,6 +51,23 @@ class ListFragment : Fragment() {
             )
         )
         products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
+        products.add(Product("Intel core i9", "10ma Generación", "$9800", 4.4f, R.drawable.corei9))
         products.add(Product("Lector Kobo", "Disponible Prime", "$2235", 3.8f, R.drawable.kobo))
         products.add(
             Product(
@@ -66,7 +85,12 @@ class ListFragment : Fragment() {
     //configuramos lo necesario para desplegar el RecyclerView
     private fun setUpRecyclerView() {
         binding.recyclerProducts.setHasFixedSize(true)
-        binding.recyclerProducts.layoutManager = LinearLayoutManager(activity)
+        binding.recyclerProducts.layoutManager = GridLayoutManager(
+            activity, 2, GridLayoutManager.VERTICAL, false
+        )
+        val largePadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing)
+        val smallPadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing_small)
+        binding.recyclerProducts.addItemDecoration(GridDecoration(largePadding, smallPadding))
         //seteando el Adapter
         mAdapter = RecyclerAdapter(requireActivity(), getProducts(), listener)
         //asignando el Adapter al RecyclerView

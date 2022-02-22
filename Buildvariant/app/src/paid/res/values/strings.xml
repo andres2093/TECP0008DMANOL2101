@@ -3,4 +3,5 @@
     <string name="error_user">El campo usuario esta vacio</string>
     <string name="error_pass">El campo contraseña esta vacio</string>
     <string name="login_success">Login exitoso!</string>
+    <string name="login_failed">Usuario y/o contraseña erronea!</string>
 </resources>

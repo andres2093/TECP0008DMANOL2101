@@ -5,7 +5,7 @@
 ### Proyecto publico en GitHub
 #### - Debe incluir lo solicitado durante los proyectos y postworks de cada sesión
 
-### Presentación PDF o PowePoint -> Duración 5 minutos
+### Presentación PDF o PowerPoint -> Duración 5 minutos
 #### - Nombre del proyecto
 #### - Problematica
 #### - Solución
